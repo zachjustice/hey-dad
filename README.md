@@ -18,13 +18,15 @@ The homepage is a single column of articles grouped by topic. Large buttons filt
 
 The visual style pairs warm ivory paper with deep teal headings and burnt-orange accents. Georgia titles and locally hosted Source Sans 3 body text keep the reading experience familiar. Shared color variables in `assets/css/styles.css` carry the palette through the homepage, articles, tables, and interaction states.
 
-Every homepage link leads to its HTML article under `articles/`. The original Markdown files are retained as the source copies.
+Every homepage link leads to its HTML article under `articles/`. Article content is published as static HTML so it remains readable without JavaScript.
 
 ## Files
 
 - `index.html`: article titles, descriptions, and topic sections.
+- `articles/`: published articles, organized by topic.
 - `assets/css/styles.css`: responsive layout and typography.
 - `assets/js/topic-filters.js`: optional topic filtering.
+- `assets/js/three-views.js`: optional view switch for `articles/immigration/three-views.html`. Without JavaScript, each claim shows all three views stacked.
 - `assets/fonts/`: Source Sans 3 and its SIL Open Font License.
 
 All assets are local. The homepage does not use external services or store browser data.

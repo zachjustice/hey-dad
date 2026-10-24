@@ -2,6 +2,8 @@
 const filters = document.querySelector(".topic-filters");
 const sections = [...document.querySelectorAll("[data-topic]")];
 const articleCount = document.querySelector("#article-count");
+const welcomeNote = document.querySelector(".welcome-note");
+const dismissWelcomeNote = document.querySelector(".welcome-note-dismiss");
 
 const filterButtons = [...filters.querySelectorAll("[data-topic-filter]")].map((link) => {
   const button = document.createElement("button");
@@ -33,6 +35,11 @@ function filterArticles(selectedButton) {
 filters.addEventListener("click", (event) => {
   const selectedButton = event.target.closest("button[data-topic-filter]");
   if (selectedButton) filterArticles(selectedButton);
+});
+
+dismissWelcomeNote?.addEventListener("click", () => {
+  welcomeNote.remove();
+  filterButtons[0].focus();
 });
 
 filterArticles(filterButtons[0]);
