@@ -1,4 +1,4 @@
-# Voting Access & Election Interference Since 2017: A Reading List
+# Voting Access & Election Interference Since 2017
 
 Oct 24, 2026 · @Zach Jusice
 

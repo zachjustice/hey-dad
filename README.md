@@ -16,6 +16,8 @@ Open [localhost:8000](http://localhost:8000). You can also open `index.html` dir
 
 The homepage is a single column of articles grouped by topic. Large buttons filter the list. With JavaScript disabled, every article remains visible and the topic controls link to the corresponding sections.
 
+The visual style pairs warm ivory paper with deep teal headings and burnt-orange accents. Georgia titles and locally hosted Source Sans 3 body text keep the reading experience familiar. Shared color variables in `assets/css/styles.css` carry the palette through the homepage, articles, tables, and interaction states.
+
 Every homepage link leads to its HTML article under `articles/`. The original Markdown files are retained as the source copies.
 
 ## Files

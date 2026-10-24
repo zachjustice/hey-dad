@@ -1,4 +1,4 @@
-# Trump Administration Ethics Concerns: Reading List
+# Corruption & The Trump Administration
 
 Oct 24, 2026 · @Zach Jusice
 

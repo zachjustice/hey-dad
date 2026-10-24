@@ -1,4 +1,4 @@
-# Fox News Credibility: A Source Guide
+# Fox News
 
 Oct 24, 2026 · @Zach Jusice
 

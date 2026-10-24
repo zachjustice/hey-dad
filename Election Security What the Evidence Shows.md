@@ -1,4 +1,4 @@
-# Election Security: What the Evidence Shows
+# Election Security
 
 Oct 24, 2026 · @Zach Jusice
 

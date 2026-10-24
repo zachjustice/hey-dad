@@ -1,4 +1,4 @@
-# Schools, Gender Transition & Parental Consent: A Fact Check
+# Schools, Gender Transition & Parental Consent
 
 Oct 24, 2026 · @Zach Jusice
 
